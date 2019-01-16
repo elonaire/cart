@@ -12,3 +12,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+  border: 0.05em solid brown;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.product > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#cart {
+  width: 40%;
+}
+
+#cart table {
+  width: 100%;
+}
